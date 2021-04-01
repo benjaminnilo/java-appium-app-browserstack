@@ -19,7 +19,7 @@ public class BrowserStackSample {
 	      caps.setCapability("browserstack.key", "hX8q6zUgT35SDZyeeqG2");
 	      
 	      // Set URL of the application under test
-	      caps.setCapability("app", "bs://a1c15cd87d1775bcb4abe299630b8985ef9202d6");
+	      caps.setCapability("app", "bs://c55fb4ffb398a28a73e1d1c14220905a79629b91");
 	      
 	      // Specify device and os_version for testing
 	      caps.setCapability("device", "Google Pixel 3");
@@ -35,10 +35,8 @@ public class BrowserStackSample {
 	      // and desired capabilities defined above
 	        AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
 	            new URL("http://hub.browserstack.com/wd/hub"), caps);
-	        
 
 	      /* Write your Custom code here */
-	        
 	        
 	      // Invoke driver.quit() after the test is done to indicate that the test is completed.
 	      driver.quit();
